@@ -1,0 +1,1 @@
+# Big_Data_Hackthon_-_Slovak_Telekom
