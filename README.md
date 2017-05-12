@@ -50,6 +50,9 @@ hdfs dfs -ls /user/team<your team number>
 ```python
 from pyspark.sql import HiveContext
 
+sc = SparkContext()
+sqlContext = HiveContext(sc)
+
 df = sqlContext.sql("select * from database.table")
 ```
 
